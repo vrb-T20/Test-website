@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting…</title>
+  <!-- Meta refresh (fallback) -->
+  <meta http-equiv="refresh" content="0;url=/">
+  <!-- Give search engines a canonical and prefer server-side 301 if possible -->
+  <link rel="canonical" href="https://bevgenie.ai/">
+  <script>
+    // JavaScript redirect (uses location.replace so history doesn't keep the /campaigns entry)
+    (function(){
+      try { window.location.replace('/'); }
+      catch(e){ window.location.href = '/'; }
+    })();
+  </script>
+</head>
+<body>
+  If you are not redirected automatically, <a href="/">click here</a>.
+</body>
+</html>
